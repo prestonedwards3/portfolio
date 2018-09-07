@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Vesper+Libre" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+<!--- Hero image and top section -->
+        <div class="hero-image">
+            <nav class="navbar navbar-default navbar-fixed-top scroll" id="navbar">
+                <div class="container">
+                   <button id="name">Preston Edwards III</button>
+               
+               <div class="btn-group" role="group" aria-label="...">                          
+                   <a href="contact.html" class="hlink">Contact</a>
+                   <a href="portfolio.html" class="hlink">Portfolio</a>
+                   <a href="#" class="hlink">Services</a>
+                   <a href="index.html" class="hlink">About</a>
+               </div> 
+           </div>
+           </nav>  
+        <div class="hero-text">
+            <h1 id="heading">I am Preston Edwards III</h1>
+            <p>And I'm a Web Developer</p>
+            <button>Hire Me</button>
+        </div>
+    </div>
+    <!-- end of hero image section -->
+    
+    <div id="main">
+        <div class="container">
+    <!-- About me section -->
+            <div class="page-header">
+                <h1>
+                    About Me
+                 </h1>
+            </div>
+
+            <div id="aboutSection">
+                <p class="container">
+                    <img src="businessPagePhoto.jpg"> 
+                        <strong>Hi I'm Preston Edwards III</strong> <br>
+                        I am a full-stack Web Developer with a knack for problem solving. I have a <br>
+                        passion for business, technology, and object-oriented programming. I got <br>
+                        into web development because coding is the closest thing I have seen to magic. <br>
+                        With proficient use of programming one can automate just about anything at work <br>
+                        and improve their effectiveness which will take their business to new heights. By <br>
+                        leveraging software to fit their specific needs, businesses have been able to <br>
+                        reduce costs, improve the efficiency of operations, and gain a competitive advantage. <br>
+                        While working at Bain and Barkley I learned how to use Microsoft Sharepoint to automate <br>
+                        workflows for the firm. The program that I wrote enables the computer to execute the <br>
+                        repetitive tasks at the law firm and free up attorneys and paralegals to focus on <br>
+                        winning their cases. This has improved the efficiency of their day to day tasks. <br>
+                        I enjoy leveraging software programs and providing custom solutions for businesses <br>
+                        to help fit their specific needs. 
+                        
+                </p>
+            </div>
+
+<!-- end of about me section -->
+<!-- start portfolio section -->
+<div class="page-header">
+        <h1>
+            Portfolio 
+         </h1>
+</div>
+                    <div class="row" id="thumbnailsection">
+                        <div  id="services"><a href="#" class="thumbnail col-lg-4"><h1>Tutor App</h1></a></div>
+                        <div  id="projects"><a href="#" class="thumbnail col-lg-4"><h1>Automated Law Firm</h1></a></div>
+                        <div  id="technologies"><a href="#" class="thumbnail col-lg-4"><h1>Bamazon</h1></a></div>
+                    </div>
+
+                    <div class="row" id="thumbnailsection">
+                            <div  id="services"><a href="#" class="thumbnail col-lg-4"><h1>Web Scraper</h1></a></div>
+                            <div  id="projects"><a href="#" class="thumbnail col-lg-4"><h1>Financial Advisor App</h1></a></div>
+                            <div  id="technologies"><a href="#" class="thumbnail col-lg-4"><h1>JerseyDB</h1></a></div>
+                        </div>
+                        <div class="row" id="thumbnailsection">
+                                <div  id="services"><a href="#" class="thumbnail col-lg-4"><h1>Services</h1></a></div>
+                                <div  id="projects"><a href="#" class="thumbnail col-lg-4"><h1>Projects</h1></a></div>
+                                <div  id="technologies"><a href="#" class="thumbnail col-lg-4"><h1>Technologies</h1></a></div>
+                            </div>
+            
+    
+
+
+
+
+<!-- contact me section -->
+<div class="page-header">
+        <h1>
+            Contact Me 
+         </h1>
+</div>
+
+<div class="container">
+        <form action="/contacts" method="POST" id="contactMe">
+            
+            <label for="email" id="email">
+            <b>Your Email</b>
+            </label>
+            <input type="text" placeholder="your email" name="email" required> <br>
+            <label for="subject">
+            <b>Subject</b>
+            </label>
+            <input type="text" placeholder="subject" name="subject" required><br>
+            <textarea name="message" rows="10" cols="50" placeholder="message"></textarea><br>
+            <div class="clearfix">
+            <button type="submit" class="signupbtn">Submit</button>
+            </div>
+            </div>
+          </form>    
+    
+</div>
+
+<!-- closes contact me section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer section -->
+
+</div> <!-- closes #mainn -->
+</div> <!-- closes .contatiner -->
+    <div class="panel panel-default">
+         <div class="panel-footer">Copyright 2018</div>
+    </div>  
+
+ <script src="logic.js"></script>    
+</body>
+</html>
